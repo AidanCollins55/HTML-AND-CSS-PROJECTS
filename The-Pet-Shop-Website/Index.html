@@ -1,98 +1,135 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>The Pet Shop</title>
-        <meta charset="UTF-8">
-    </head>
-    <body>
-        <!--NAVBAR-->
-        <nav> 
-            <div>
-                <ul>
-                    <li><a href="Index.html">HOME</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                </ul>
-                <ul>
-                    <a href="#cat"><li>Cats</li> </a>
-                    <a href="#dog"><li>Dog</li> </a>
-                    <a href="#rabbit"><li>Rabbit</li> </a>
-                    <a href="#fish"><li>Fish</li> </a>
-                    <a href="#guineapig"><li>Guinea Pig</li> </a>
-                    <a href="#beardeddragon"><li>Reptiles</li> </a>
-                    <a href="#video"><li>Videos</li> </a>
-                </ul>
-            </div>
-        </nav>
-        <!--HEADER-->
-        <header>
-            <div>
-                <h1>Welcome to The Pet Shop</h1>
-            </div>
-        </header>
-        <!--PET IMAGES-->
-        <section>
-            <div>
-                <h2>Choose a Pet!</h2>
-                <div>
-                    <!--CAT IMAGE-->
-                    <div id="cat">
+
+<head>
+    <title>The Pet Shop</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <nav class="nav-bar">
+        <div>
+            <ul id="nav-border">
+                <li><a href="Index.html">HOME</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <ul>
+                <a href="#cat">
+                    <li>Cats</li>
+                </a>
+                <a href="#dog">
+                    <li>Dog</li>
+                </a>
+                <a href="#rabbit">
+                    <li>Rabbit</li>
+                </a>
+                <a href="#fish">
+                    <li>Fish</li>
+                </a>
+                <a href="#guineapig">
+                    <li>Guinea Pig</li>
+                </a>
+                <a href="#beardeddragon">
+                    <li>Reptiles</li>
+                </a>
+                <a href="#video">
+                    <li>Videos</li>
+                </a>
+            </ul>
+        </div>
+    </nav>
+    <!--HEADER-->
+    <header>
+        <div>
+            <h1 class="animate-text">Welcome to The Pet Shop</h1>
+        </div>
+    </header>
+    <!--PET IMAGES-->
+    <section>
+        <div>
+            <h2>Choose a Pet!</h2>
+            <div class="container">
+                <!--CAT IMAGE-->
+                <div id="cat" class="column">
+                    <div class="image-container">
                         <h3>Cats and Kittens</h3>
                         <img src="images/cat.jpg" alt="Picture of kittens">
+                        <div class="overlay"></div>
                     </div>
-                    <!--DOG IMAGE-->
-                    <div id="dog">
+                </div>
+                <!--DOG IMAGE-->
+                <div id="dog" class="column">
+                    <div class="image-container">
                         <h3>Dog</h3>
                         <img src="images/dog.jpg" alt="Picture of a dog">
+                        <div class="overlay"></div>
                     </div>
-                    <!--RABBIT IMAGE-->
-                    <div id="rabbit">
+                </div>
+                <!--RABBIT IMAGE-->
+                <div id="rabbit" class="column">
+                    <div class="image-container">
                         <h3>Rabbit</h3>
                         <img src="images/rabbit.jpg" alt="Picture of a Rabbit">
+                        <div class="overlay"></div>
                     </div>
-                    <!--GUINEA PIG IMAGE-->
-                    <div id="guineapig">
+                </div>
+                <!--GUINEA PIG IMAGE-->
+                <div id="guineapig" class="column">
+                    <div class="image-container">
                         <h3>Guinea Pig</h3>
                         <img src="images/guineapig.jpg" alt="Picture of a Guinea Pig">
+                        <div class="overlay"></div>
                     </div>
-                    <!--Fish-->
-                    <div id="fish">
+                </div>
+                <!--Fish-->
+                <div id="fish" class="column">
+                    <div class="image-container">
                         <h3>Fish</h3>
                         <img src="images/fish.jpg" alt="Picture of a Fish">
+                        <div class="overlay"></div>
                     </div>
-                    <!--Bearded Dragon-->
-                    <div id="beardeddragon">
+                </div>
+                <!--Bearded Dragon-->
+                <div id="beardeddragon" class="column">
+                    <div class="image-container">
                         <h3>Bearded Dragon</h3>
                         <img src="images/beardeddragon.jpg" alt="Picture of a Bearded Dragon">
+                        <div class="overlay"></div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!--VIDEOS-->
-        <section>
-            <!--DOG VIDEO-->
-            <div id="video">
-                <h3>Videos</h3>
-                <iframe width="1280" height="720" src="https://www.youtube.com/embed/ng58pNPDDW4"></iframe>
-            </div>
-        </section>
-        <blockquote cite="https://www.bing.com/images/search?view=detailV2&ccid=iilgS9pg&id=9BBE4C37F2332731C5DDF8B4A91FCB3BBFFF7175&thid=OIP.iilgS9pgcHYvcM5X5bXouAHaE8&mediaurl=https%3a%2f%2fwww.scrolldroll.com%2fwp-content%2fuploads%2f2016%2f10%2fQuotes-on-Animals-by-famous-people-9.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.8a29604bda6070762f70ce57e5b5e8b8%3frik%3ddXH%252fvzvLH6m0%252bA%26pid%3dImgRaw%26r%3d0&exph=1000&expw=1500&q=quotes+about+animals&simid=608039792455412065&FORM=IRPRST&ck=880F4758781746BF2DFE98E9C31D069D&selectedIndex=0&itb=0&ajaxhist=0&ajaxserp=0">
+        </div>
+    </section>
+    <!--VIDEOS-->
+    <section>
+        <!--DOG VIDEO-->
+        <div id="video" class="container">
+            <h3>Videos</h3>
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/ng58pNPDDW4"></iframe>
+        </div>
+    </section>
+    <blockquote
+        cite="https://www.bing.com/images/search?view=detailV2&ccid=iilgS9pg&id=9BBE4C37F2332731C5DDF8B4A91FCB3BBFFF7175&thid=OIP.iilgS9pgcHYvcM5X5bXouAHaE8&mediaurl=https%3a%2f%2fwww.scrolldroll.com%2fwp-content%2fuploads%2f2016%2f10%2fQuotes-on-Animals-by-famous-people-9.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.8a29604bda6070762f70ce57e5b5e8b8%3frik%3ddXH%252fvzvLH6m0%252bA%26pid%3dImgRaw%26r%3d0&exph=1000&expw=1500&q=quotes+about+animals&simid=608039792455412065&FORM=IRPRST&ck=880F4758781746BF2DFE98E9C31D069D&selectedIndex=0&itb=0&ajaxhist=0&ajaxserp=0">
         It's much easier to show compassion to animals. They are never wicked. -Haile Selassie</blockquote>
-        <!--FOOTER-->
-        <footer>
-            <table>
-                <tr>
-                    <td>
-                        <p>The Pet Shop! &copy;</p>
-                    </td>
-                    <td>
-                        <p>123 Square Ave</p>
-                        <p>Portland, OR 97204</p>
-                    </td>
-                    <td>
-                        <p>503-234-3966</p>
-                    </td>
-                </tr>
-            </table>
-        </footer>
-    </body>
+    <!--FOOTER-->
+    <footer>
+        <table>
+            <tr>
+                <td>
+                    <p>The Pet Shop! &copy;</p>
+                </td>
+                <td>
+                    <p>123 Square Ave</p>
+                    <p>Portland, OR 97204</p>
+                </td>
+                <td>
+                    <p>503-234-3966</p>
+                </td>
+            </tr>
+        </table>
+    </footer>
+</body>
+
 </html>
