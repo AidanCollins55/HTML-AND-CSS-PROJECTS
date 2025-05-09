@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 p {
 	color: purple;
 	background: yellow;
@@ -6,4 +7,14 @@ p {
 }
 h1	{
   text-shadow: 2px 2px #FF0000;
+=======
+p {
+	color: purple;
+	background: yellow;
+	font-weight: bold;
+	text-align: center;
+}
+h1	{
+  text-shadow: 2px 2px #FF0000;
+>>>>>>> 6466ce15f6cee9cab25ad1dec914b6756231fa0f
 }
